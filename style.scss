@@ -1,4 +1,5 @@
 $color: white;
+$font: 'Brandon Grotesque','brandon-grotesque-n7','brandon-grotesque',Helvetica,sans-serif;
 
 .uses{
    color: $color;
@@ -14,39 +15,34 @@ $color: white;
     color: $color;
 }
 
+%pagebackground {
+   background-color: black;
+   height: 700px; /* You must set a specified height */
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+
 .bodypage1 {
- background-image: url("https://www.spacex.com/sites/spacex/files/starship_cloud_launch1_moved_morechrome.jpg");
- background-color: #cccccc;
- height: 700px; /* You must set a specified height */
- background-position: center; /* Center the image */
- background-repeat: no-repeat; /* Do not repeat the image */
- background-size: cover; /* Resize the background image to cover the entire container */
+   @extend %pagebackground;
+   background-image: url("https://www.spacex.com/sites/spacex/files/starship_cloud_launch1_moved_morechrome.jpg");
+
 }
 
 .bodypage2 {
- background-image: url("https://www.spacex.com/sites/spacex/files/raptor_0.jpg");
- background-color: #cccccc;
- height: 700px; /* You must set a specified height */
- background-position: center; /* Center the image */
- background-repeat: no-repeat; /* Do not repeat the image */
- background-size: cover; /* Resize the background image to cover the entire container */
+   @extend %pagebackground;
+   background-image: url("https://www.spacex.com/sites/spacex/files/raptor_0.jpg");
 }
 
 .bodypage3 {
- background-color: black;
- height: 700px; /* You must set a specified height */
- background-position: center; /* Center the image */
- background-repeat: no-repeat; /* Do not repeat the image */
- background-size: cover; /* Resize the background image to cover the entire container */
+ @extend %pagebackground;
 }
 
 .bodypage4 {
+   @extend %pagebackground;
  background-image: url("https://www.spacex.com/sites/spacex/files/starship_uses.jpg");
- background-color: #cccccc;
- height: 700px; /* You must set a specified height */
- background-position: center; /* Center the image */
- background-repeat: no-repeat; /* Do not repeat the image */
- background-size: cover; /* Resize the background image to cover the entire container */
+
 }
 
 .homegroup {
@@ -56,7 +52,7 @@ $color: white;
 
 .introtext {
     padding: 1em;
-    font-family: 'Brandon Grotesque','brandon-grotesque-n3','brandon-grotesque',Helvetica,sans-serif;
+    font-family: $font;
     font-weight: 300;
     line-height: 1;
     font-size: 50px;
@@ -65,7 +61,7 @@ $color: white;
 }
 
 .h2 {
-    font-family: 'Brandon Grotesque','brandon-grotesque-n7','brandon-grotesque',Helvetica,sans-serif;
+    font-family: $font;
     font-weight: bold;
     text-transform: uppercase;
     font-style: normal;
