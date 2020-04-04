@@ -13,3 +13,83 @@ $color: white;
 
     color: $color;
 }
+
+.bodypage1 {
+ background-image: url("https://www.spacex.com/sites/spacex/files/starship_cloud_launch1_moved_morechrome.jpg");
+ background-color: #cccccc;
+ height: 700px; /* You must set a specified height */
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.bodypage2 {
+ background-image: url("https://www.spacex.com/sites/spacex/files/raptor_0.jpg");
+ background-color: #cccccc;
+ height: 700px; /* You must set a specified height */
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.bodypage3 {
+ background-color: black;
+ height: 700px; /* You must set a specified height */
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.bodypage4 {
+ background-image: url("https://www.spacex.com/sites/spacex/files/starship_uses.jpg");
+ background-color: #cccccc;
+ height: 700px; /* You must set a specified height */
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.homegroup {
+     text-align: center;
+     margin-top: 15%;
+}
+
+.introtext {
+    padding: 1em;
+    font-family: 'Brandon Grotesque','brandon-grotesque-n3','brandon-grotesque',Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: 1;
+    font-size: 50px;
+    color: white;
+    letter-spacing: -1px;
+}
+
+.h2 {
+    font-family: 'Brandon Grotesque','brandon-grotesque-n7','brandon-grotesque',Helvetica,sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 0.8;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+    line-height: 1.2em;
+}
+
+.usesgroup {
+    margin-top: 15%;
+}
+
+
+.enginegroup {
+    margin-top: 50%;
+}
+
+.locationgroup {
+    margin-top: 20%;
+}
+
+.locationimage {
+    margin-bottom: 1em;
+}
