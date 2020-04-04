@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Some Rocket Stuff.</title>
+    </head>
+    <body class="bodypage1">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/SpaceX_Logo_Black.png"  height="30" alt="">
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="engines.html">Engines</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="locations.html">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="uses.html">Starship Uses</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+        <div class ="homegroup">
+            <h1 class="introtext">SERVICE TO EARTH ORBIT, THE MOON, MARS AND BEYOND</h1>
+            <div >
+              <button id="musk" type="button" class="btn btn-dark" >Our engineering process</button>
+            </div>
+        </div>
+    </body>
+    <script>
+      document.querySelector("#musk").onclick = function() {
+                document.querySelector("body").style.backgroundImage = "url('https://media.giphy.com/media/5eFRL3jPLgbNj6iwPx/giphy.gif')";
+      }
+
+    </script>
+</html>
